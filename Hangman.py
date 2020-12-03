@@ -29,7 +29,6 @@ def notifyPlayer():
   print(guesses)
   print("\nLetters you guessed wrong: ")
   print(wrongGuesses)
-  print("\nHere is what you are still missing: ")
   print("".join(template))
             
 print("".join(template) + "\n")
@@ -55,6 +54,3 @@ while gameOver == False:
     elif (word == "".join(template)):
         gameOver = True
         print("You win! You guessed all the correct letters!")
-
-
-
